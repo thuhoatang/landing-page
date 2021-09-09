@@ -1,0 +1,238 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    /* background-color: rgb(201, 195, 42); */
+}
+
+#myVideo {
+    /* position: fixed; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+#menuHeader {
+    position: fixed;
+    transition: top 0.3s;
+    z-index: 1000;
+}
+
+#menuHeaderLogo {
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    transition: top 0.3s;
+    z-index: 1000;
+}
+
+#menuHome {
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    transition: top 0.3s;
+}
+
+.nav-up {
+    top: -50px
+}
+
+.navbar-brand:hover {
+    font-size: 35px;
+    /* position: fixed; */
+}
+
+#textContent {
+    background-color: transparent;
+    border: none;
+    margin-top: 150px;
+}
+
+.title-Bg {
+    font-size: 90px;
+    margin-top: 50px;
+}
+
+.container.body {
+    position: relative;
+}
+
+
+/* #cardTitleSunflower{
+    position: relative;
+    animation: myCSSChildFisrt 20s infinite;
+}
+
+@keyframes myCSSChildFisrt {
+    from {left: 0px}
+    to {left: 0;}
+} */
+
+.content.chidlFisrt.storyCovid .carousel-inner img {
+    height: 500px;
+    /* width: auto; */
+    /* opacity: 0.1; */
+    filter: blur(1px);
+    width: auto;
+}
+
+
+/* hover cho image bên phải slide - phần 1 */
+
+.content.chidlFisrt.storyCovid .col-4 .container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+.content.chidlFisrt.storyCovid .col-4 .container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.content.chidlFisrt.storyCovid .col-4 .container .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(37, 94, 160);
+    /* background: rgba(5, 57, 117, 0.5); Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.content.chidlFisrt.storyCovid .col-4 .container:hover .overlay {
+    opacity: 1;
+}
+
+.content.chidlFisrt.storyCovid .carousel-inner h4 {
+    text-shadow: 1px 0 0 rgb(8, 176, 206), -1px 0 0 rgb(8, 176, 206), 0 1px 0 rgb(8, 176, 206), 0 -1px 0 rgb(8, 176, 206), 1px 1px rgb(8, 176, 206), -1px -1px 0 rgb(8, 176, 206), 1px -1px 0 rgb(8, 176, 206), -1px 1px 0 rgb(8, 176, 206);
+}
+
+.content.chidlFisrt.storyCovid .carousel-inner p {
+    text-shadow: 1px 0 0 rgb(8, 176, 206), -1px 0 0 rgb(8, 176, 206), 0 1px 0 rgb(8, 176, 206), 0 -1px 0 rgb(8, 176, 206), 1px 1px rgb(8, 176, 206), -1px -1px 0 rgb(8, 176, 206), 1px -1px 0 rgb(8, 176, 206), -1px 1px 0 rgb(8, 176, 206);
+}
+
+
+/* ------------------- */
+
+.childSecond .row.listTitle.ml-5 .card:hover {
+    background-color: rgb(170, 194, 243);
+    background: rgba(114, 149, 189, 0.5);
+    /* color: darkblue; */
+    box-shadow: 5px 5px rgb(216, 216, 216);
+}
+
+
+/* Z-index: cho hinh anh tre em */
+
+.childThird .row .row-8 .col-4.bg-info {
+    position: relative;
+}
+
+.childThird .container {
+    position: relative;
+    font-family: Arial;
+}
+
+.childThird .container .text-block {
+    padding-top: 50px;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50px 10px;
+    box-shadow: 5px 5px rgba(144, 133, 161, 0.7);
+    /* bottom: 20px;
+    right: 20px; */
+    background-color: rgb(27, 61, 99);
+    background: rgba(22, 102, 194, 0.7);
+    color: white;
+    top: 30px;
+    right: -50px;
+    /* padding-left: 20px; */
+}
+
+
+/* phần aboutme */
+
+.childFourth .row.container img {
+    opacity: 1;
+}
+
+
+/* .childFourth .row.container {
+    display: none;
+    justify-content: center;
+} */
+
+
+/* Phaanf 5 */
+
+#example1 {
+    padding-top: 5%;
+    /* width: 99%; */
+    height: 400px;
+    /* background-image: url(/image/plane03.jfif); */
+    background-color: rgba(151, 186, 197, 0.5);
+    background-size: 100% 100%;
+    /* opacity: 0.7; */
+}
+
+#example1:hover {
+    background-color: rgb(124, 189, 194);
+}
+
+.afterHover {
+    background-color: khaki;
+    /* border-radius: ; */
+}
+
+.cardSubmit .input {
+    margin-left: 19%;
+}
+
+.text-center .cardSubmit a {
+    position: relative;
+    z-index: 999;
+    top: -40px;
+    border-radius: 20px 20px;
+    width: 200px;
+    box-shadow: 5px 2px rgba(54, 95, 76, 0.5);
+    left: 20%;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+/* CSS form donation */
+
+.donationForm {
+    width: 50%;
+    height: 670px;
+    margin-left: 25%;
+    border: black solid 1px;
+    background-color: rgba(153, 204, 204, 0.5);
+    display: none;
+    position: relative;
+}
+
+#titleForm {
+    height: 80px;
+    background-color: rgb(71, 179, 155);
+}
